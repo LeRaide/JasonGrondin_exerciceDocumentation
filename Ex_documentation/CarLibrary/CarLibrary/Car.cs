@@ -26,7 +26,7 @@ namespace CarLibrary
             Mark = mark;
         }
         /// <summary>
-        /// Cette classe est utilisée pour enlever le dernière objet "Car" ajouter à List<Car>.
+        /// Cette classe est utilisée pour enlever le dernière objet "Car" ajouter à list de "Car".
         /// </summary>
         /// <param name="cars"></param>
         public void RemoveLastCarAdded(List<Car> cars)
@@ -35,7 +35,7 @@ namespace CarLibrary
             cars.Remove(cars[carToRemove - 1]);
         }
         /// <summary>
-        /// Cette classe est utilisé pour retourner une list<Car> contenant une couleur 
+        /// Cette classe est utilisé pour retourner une list de "Car" contenant une couleur
         /// spicifique passer en paramètre.
         /// </summary>
         /// <param name="color"></param>
@@ -51,5 +51,6 @@ namespace CarLibrary
             }
             return Cars;
         }
+        
     }
 }

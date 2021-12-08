@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CarLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:CarLibrary.Car.RemoveLastCarAdded(System.Collections.Generic.List{CarLibrary.Car})">
+            <summary>
+            Cette classe est utilisée pour enlever le dernière objet "Car" ajouter à list de "Car".
+            </summary>
+            <param name="cars"></param>
+        </member>
+        <member name="M:CarLibrary.Car.GetallCarWithThatColor(System.String)">
+            <summary>
+            Cette classe est utilisé pour retourner une list de "Car" contenant une couleur
+            spicifique passer en paramètre.
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
